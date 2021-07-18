@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+<!--    <PackageReference Include="Grpc" Version="2.39.0-pre1" />-->
+    <PackageReference Include="Grpc.AspNetCore" Version="2.38.0" />
+<!--    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.38.0" />-->
+<!--    <PackageReference Include="Grpc.Tools" Version="2.39.0-pre1">-->
+<!--&lt;!&ndash;      <PrivateAssets>all</PrivateAssets>&ndash;&gt;-->
+<!--&lt;!&ndash;      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>&ndash;&gt;-->
+<!--    </PackageReference>-->
+  </ItemGroup>
+
+</Project>

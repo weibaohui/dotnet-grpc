@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grcpttt", "grcpttt\grcpttt.csproj", "{D982968A-7BAA-4271-91BB-2D34EA4FFCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientgrpc", "clientgrpc\clientgrpc.csproj", "{2F97626A-DBF1-4C8F-A2C7-119E8ACC7D8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D982968A-7BAA-4271-91BB-2D34EA4FFCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D982968A-7BAA-4271-91BB-2D34EA4FFCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D982968A-7BAA-4271-91BB-2D34EA4FFCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D982968A-7BAA-4271-91BB-2D34EA4FFCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F97626A-DBF1-4C8F-A2C7-119E8ACC7D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F97626A-DBF1-4C8F-A2C7-119E8ACC7D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F97626A-DBF1-4C8F-A2C7-119E8ACC7D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F97626A-DBF1-4C8F-A2C7-119E8ACC7D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A3E64BF-9AEC-4343-A74F-47D06572A672}
+	EndGlobalSection
+EndGlobal
